@@ -1,0 +1,146 @@
+ *{
+margin: 0;
+padding: 0;
+
+ }
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+ .logo img{
+     width: 16%;
+     height: 16%;
+     border-radius: 30px;
+     border: 2px solid white;
+ }
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+ .nav-list{
+width: 50%;
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+ }
+
+ .nav-list li{
+list-style: none;
+padding: 23px;
+
+ }
+
+ .nav-list li a{
+text-decoration: none;
+color: white;
+ }
+ .nav-list li a:hover{
+color: rgb(182, 182, 182);
+ }
+ .rightnav{
+     padding:0 23px ;
+     width: 50%;
+     text-align: right;
+
+ }
+ #search{
+     padding: 5px;
+     font-size: 17px;
+     border:2px solid grey ;
+     border-radius: 10px;
+ }
+ .background {
+
+    background: rgba(0,0,0, 0.7) url(BG.jpg);
+    background-size: cover;
+    background-blend-mode:darken ;
+
+}
+.firstsection{
+    height: 100vh;
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    max-width: 50%;
+    height: 80%;
+    margin: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+
+.firsthalf{
+width: 110%;
+}
+
+.secondhalf img{
+    border: 2px solid wheat;
+    border-radius: 22rem;
+    padding: 20px;
+display: block;
+    width: 70%;
+}
+.text-big{
+    font-size: 30px;
+}
+.text-small{
+    font-size: 15px;
+}
+.btn{
+    padding: 8px 20px;
+    margin: 7px 0;
+    border: 2px solid white;
+    border-radius: 8px;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+.btn:hover{
+background-color: rgb(142, 160, 250);
+
+}
+.Section{
+    height: 360px;
+    display: flex;
+    align-items: center;
+    max-width: 70%;
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: space-evenly;
+}
+.secRight{
+    height: 360px;
+    display: flex;
+    align-items: center;
+    max-width: 70%;
+    margin: auto;
+    justify-content: space-evenly;
+}
+.secleft{
+    height: 360px;
+    display: flex;
+    align-items: center;
+    max-width: 70%;
+    margin: auto;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+}
+.paras{
+    padding: 50px;
+    width: 70%;
+}
+
+.tumbnail img{
+    width: 15rem;
+}
